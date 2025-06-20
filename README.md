@@ -31,6 +31,8 @@ GitHub (Code) → Webhook → Jenkins (Build) → Nginx (Deploy)
 
 ### 1. Infrastructure Provisioning
 
+![image](https://github.com/user-attachments/assets/c145611d-345a-4703-93df-7d2dab836da4)
+
 ```
 # Create EC2 instance (Amazon Linux 2)
 - Open ports: 22 (SSH), 80 (HTTP), 8080 (Jenkins)
@@ -62,6 +64,9 @@ Sudo systemctl status jenkins
 ```
 
 ### 3. Jenkins Configuration
+
+![image](https://github.com/user-attachments/assets/99520be3-4909-4c9a-af7e-e04ff9e8c282)
+
 
 ```
 http://<EC2_IP>:8080
@@ -106,5 +111,3 @@ browse EC2 Ip Address
 ## ▶️ Live Demo Video
 
 [![CI/CD Pipeline Demo](https://github.com/user-attachments/assets/4445e90e-3d59-40e3-9bb4-6dce646f6215)](https://drive.google.com/file/d/1-hM_i3P-pC7P0OqY71DNOjRekxdpVX8T/view?usp=sharing)
-
-
